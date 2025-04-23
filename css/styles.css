@@ -1,13 +1,13 @@
 *{
     font-family: "Roboto";
 }
-.everything{
+.main{
     margin: none;
     border-top: black dashed 8px;
     min-width: 1vw;
     background-image: linear-gradient(to bottom,#6398d4   0%,#f9db79 99%, #f9db79 100%);
 }
-.top_part{
+.header{
     background-color: #6398d4;
     display: grid;
     grid-template-columns: 0.5fr 1fr 0.5fr ;
@@ -60,7 +60,7 @@ li a{
     max-height: 100px;
 }
 
-.blue{
+.subtitle{
     color: #f9db79;
     text-align: center;
     margin: none;
@@ -75,7 +75,7 @@ li a{
 }
 
 
-.yellow{
+.locationcards{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     margin: 0px;
@@ -527,7 +527,7 @@ li a{
 
 @media (min-width: 1024px){
 
-    .top_part{
+    .header{
         background-color: #6398d4;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr ;
@@ -574,7 +574,7 @@ li a{
     
     
 
-    .yellow{
+    .locationcards{
         margin: 0px;
         display: flex;
         justify-content: space-evenly;
@@ -691,8 +691,11 @@ li a{
     }
 
     .testominalistself{
-        width: 50%;
+        width: 80%;
         margin: auto;
+        font-size: 40px;
+        padding-top: 50px;
+
     }
 
     .fries{
