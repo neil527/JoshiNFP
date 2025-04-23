@@ -260,7 +260,7 @@ li a{
 .menubutton:hover{
         background-position: right;
         padding-top: 30px;
-        text-decoration-thickness: 10px;
+        padding-bottom: 30px;
     }
 
 .menubutton:hover{
