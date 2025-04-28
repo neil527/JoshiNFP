@@ -133,12 +133,12 @@ li a{
     grid-row: 4/5;
 }
 
-.abouteverything{
+.aboutmain{
     border-top: black dashed 8px;
     background-image: linear-gradient(to bottom,#6398d4   0%, #f9db79 99%, #f9db79 100%);
 }
 
-.menuabouteverything{
+.menumain{
     border-top: black dashed 8px;
     background-image: linear-gradient(to bottom,#6398d4   0%, #f9db79 99%, #f9db79 100%);
 }
@@ -706,7 +706,7 @@ li a{
         max-width: 1200px;
     }
 
-    .menuabouteverything{
+    .menumain{
         display: grid;
         grid-template-columns: 0.2fr 1fr 0.2fr;
     }
